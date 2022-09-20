@@ -11,8 +11,8 @@ public class Main {
             sum += i;
         }
         System.out.println("Сумма трат за месяц составила "+sum+ " рублей");
-        int max=100_000;
-        int min=200_000;
+        int max=Integer.MIN_VALUE;
+        int min=Integer.MAX_VALUE;
         for (int j : arr) {
             if (j > max) {
                 int max1 = j;
